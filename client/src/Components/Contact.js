@@ -7,7 +7,7 @@ import { showToast } from './utils/showToast';
 
 const Contact = () => {
     function sendEmail(event) {
-		emailjs.sendForm('service_9j2wgsn', 'template_5ewa9f4', event.target, 'FD5qHSXyzFLW7YvfR').then(
+		emailjs.sendForm('service_sljyeev', 'template_5ewa9f4', event.target, 'FD5qHSXyzFLW7YvfR').then(
 			(result) => {
 				showToast('success', 'successfully sent the email');
 			},
